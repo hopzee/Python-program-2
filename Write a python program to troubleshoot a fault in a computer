@@ -22,5 +22,5 @@ def troubleshoot_fault_in_computer():
         print("Check network cables and connections")
         print("Check Wi-Fi settings")
         print("Check for internet service provider outages")
-    else:print(" no fault")
+    else:print("Invalid choice. Please try again.")
 troubleshoot_fault_in_computer()
