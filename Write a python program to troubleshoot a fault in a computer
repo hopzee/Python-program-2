@@ -1,0 +1,26 @@
+def troubleshoot_fault_in_computer():
+    print("Computer Troubleshooting Guide")
+    print("--------------------------------")
+    print("1. Computer won't turn on")
+    print("2. Computer is slow")
+    print("3. Computer freezes frequently")
+    print("4. Computer won't connect to the internet")
+    choice = input("Enter the fault number: ")
+    if choice == "1":
+        print("Check the power cord connection")
+        print("Check the power button")
+        print("Check for blown fuse or tripped circuit")
+    elif choice == "2":
+        print("Check for malware or viruses")
+        print("Check for disk space and free up space if necessary")
+        print("Check for software updates")
+    elif choice == "3":
+        print("Check for overheating")
+        print("Check for driver updates")
+        print("Check for software conflicts")
+    elif choice == "4":
+        print("Check network cables and connections")
+        print("Check Wi-Fi settings")
+        print("Check for internet service provider outages")
+    else:print(" no fault")
+troubleshoot_fault_in_computer()
